@@ -3,13 +3,10 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.function.Predicate;
 
 /**
  * Created by Jeff on 2/24/2017.
@@ -19,6 +16,7 @@ public class BaseSelenium
     public static WebDriver chromeDriver = new ChromeDriver();
     public static String googleURL = "http://www.google.com";
     public static long timeout = 10;
+    public static String rbURL = "https://www.rbauction.com";
 
     @Before
     public void setup()
@@ -65,7 +63,6 @@ public class BaseSelenium
                 throw new Exception("We are not on the correct page, we are on " + actualPageTitle + " , when we should be on " + expectedPageTitle);
             }
         }
-        chromeDriver.close();
     }
 
     @Test()
@@ -86,6 +83,53 @@ public class BaseSelenium
         {
             throw new NoSuchElementException("The first element in the list is " + firstLink + " , when it should be " + expectedLink);
         }
+    }
+
+    @Test
+    public void searchRichieBros()
+    {
+        FluentWait wait = new WebDriverWait(chromeDriver, timeout);
+
+        chromeDriver.get(rbURL);
+        chromeDriver.manage().window().maximize();
+        chromeDriver.findElement(By.id("rba-keyword-toggle")).click();
+
+        WebElement advSearchForm = chromeDriver.findElement(By.className("rba-adv-search-inner"));
+
+        wait.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.elementToBeClickable((chromeDriver.findElement(By.id("adv-industry")))));
+        selectElement((chromeDriver.findElement(By.id("adv-industry"))), "Construction");
+
+        wait.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.elementToBeClickable((chromeDriver.findElement(By.id("adv-category")))));
+        selectElement((chromeDriver.findElement(By.id("adv-category"))), "Excavators");
+
+        chromeDriver.findElement(By.id("adv-make")).sendKeys("CATERPILLAR");
+        chromeDriver.findElement(By.id("adv-year-1")).sendKeys("2014");
+        chromeDriver.findElement(By.id("adv-year-2")).sendKeys("2017");
+
+        WebElement searchButton = advSearchForm.findElement(By.xpath("//*[@id='rba-adv-search']/div/div[3]/input"));
+        searchButton.click();
+
+        wait.ignoring(StaleElementReferenceException.class).until(ExpectedConditions.visibilityOf((chromeDriver.findElement(By.id("rba-search-results-list")))));
+
+        try
+        {
+            Alert alert = chromeDriver.switchTo().alert();
+            alert.dismiss();
+        }
+        catch(NoAlertPresentException e)
+        {
+        }
+
+        WebElement searchResults = chromeDriver.findElement(By.id("rba-search-results-list"));
+        List<WebElement> resultsList = searchResults.findElements(By.xpath("//*[contains(@id, 'search-results-row')]"));
+        WebElement detailsElement = resultsList.get(0).findElement(By.xpath("//*[contains(@class, 'item-extra-info')]"));
+        System.out.println(detailsElement.getText());
+    }
+
+    public void selectElement(WebElement element, String text)
+    {
+        Select select = new Select(element);
+        select.selectByVisibleText(text);
     }
 
     public boolean waitForPageLoad(WebDriver driver, long timeout)
