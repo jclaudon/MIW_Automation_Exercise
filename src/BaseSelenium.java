@@ -17,6 +17,7 @@ public class BaseSelenium
     public static String googleURL = "http://www.google.com";
     public static long timeout = 10;
     public static String rbURL = "https://www.rbauction.com";
+    public static FluentWait wait = new WebDriverWait(chromeDriver, timeout);
 
     @Before
     public void setup()
@@ -66,15 +67,17 @@ public class BaseSelenium
     }
 
     @Test()
-    public void searchGoogle() throws InterruptedException
+    public void searchGoogle()
     {
+
+
         String searchString = "mobile integration workgroup";
         chromeDriver.get(googleURL);
         chromeDriver.manage().window().maximize();
         chromeDriver.findElement(By.className("gsfi")).sendKeys(searchString);
         chromeDriver.findElement(By.name("btnG")).click();
         chromeDriver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
-        //WebElement searchResults = (new WebDriverWait(chromeDriver, timeout)).until(ExpectedConditions.presenceOfElementLocated(By.id("resultStats")));
+        wait.until(ExpectedConditions.elementToBeClickable((chromeDriver.findElement(By.id("rso")))));
         List<WebElement> resultsList = chromeDriver.findElements(By.xpath("//*[@id='rso']//h3/a"));
         String expectedLink = "http://mobileintegration-group.com/";
         String firstLink = resultsList.get(0).getAttribute("href");
@@ -88,8 +91,6 @@ public class BaseSelenium
     @Test
     public void searchRichieBros()
     {
-        FluentWait wait = new WebDriverWait(chromeDriver, timeout);
-
         chromeDriver.get(rbURL);
         chromeDriver.manage().window().maximize();
         chromeDriver.findElement(By.id("rba-keyword-toggle")).click();
@@ -118,6 +119,7 @@ public class BaseSelenium
         }
         catch(NoAlertPresentException e)
         {
+            System.out.println("No Alert/PopUp detected");
         }
 
         WebElement searchResults = chromeDriver.findElement(By.id("rba-search-results-list"));
