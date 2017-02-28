@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77caed34-3d23-4ee5-ad10-fda5f90320c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/SeleniumTests.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MIW_Automation_Exercise/BaseSelenium$1.class" afterPath="$PROJECT_DIR$/out/production/MIW_Automation_Exercise/BaseSelenium$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/MIW_Automation_Exercise/BaseSelenium.class" afterPath="$PROJECT_DIR$/out/production/MIW_Automation_Exercise/BaseSelenium.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,8 +29,20 @@
       <file leaf-file-name="BaseSelenium.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BaseSelenium.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+            <state relative-caret-position="204">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SeleniumTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SeleniumTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,12 +52,12 @@
       </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="Gfm">
+          <provider editor-type-id="Gfm">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="83" column="414" lean-forward="false" selection-start-line="83" selection-start-column="414" selection-end-line="83" selection-end-column="414" />
               <folding />
             </state>
           </provider>
@@ -55,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JavaFXApplication" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +86,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/BaseSelenium.java" />
         <option value="$PROJECT_DIR$/src/BaseSelenium.java" />
+        <option value="$PROJECT_DIR$/src/SeleniumTests.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -81,8 +95,8 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="146" />
-    <option name="y" value="29" />
+    <option name="x" value="138" />
+    <option name="y" value="19" />
     <option name="width" value="1778" />
     <option name="height" value="1026" />
   </component>
@@ -135,48 +149,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Gauge Execution.README.md">
-    <configuration default="false" name="BaseSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BaseSelenium" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MIW_Automation_Exercise" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="BaseSelenium.openChrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="MIW_Automation_Exercise" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BaseSelenium" />
-      <option name="METHOD_NAME" value="openChrome" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.SeleniumTests.searchGoogle">
     <configuration default="false" name="BaseSelenium.searchGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="MIW_Automation_Exercise" />
@@ -230,6 +208,48 @@
       <setting name="moduleName" value="MIW_Automation_Exercise" />
       <envMap />
       <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeleniumTests.searchRichieBros" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MIW_Automation_Exercise" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests" />
+      <option name="METHOD_NAME" value="searchRichieBros" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="SeleniumTests.searchGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="MIW_Automation_Exercise" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTests" />
+      <option name="METHOD_NAME" value="searchGoogle" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -450,19 +470,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.BaseSelenium" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BaseSelenium.openChrome" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchGoogle" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchRichieBros" />
-      <item index="4" class="java.lang.String" itemvalue="Gauge Execution.README.md" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchGoogle" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchRichieBros" />
+      <item index="2" class="java.lang.String" itemvalue="Gauge Execution.README.md" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SeleniumTests.searchRichieBros" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SeleniumTests.searchGoogle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Gauge Execution.README.md" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchGoogle" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchRichieBros" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BaseSelenium.openChrome" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BaseSelenium" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SeleniumTests.searchGoogle" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SeleniumTests.searchRichieBros" />
+        <item index="2" class="java.lang.String" itemvalue="Gauge Execution.README.md" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchGoogle" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.BaseSelenium.searchRichieBros" />
       </list>
     </recent_temporary>
   </component>
@@ -488,54 +508,55 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 01m 37s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 07m 06s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 03m 54s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 08m 24s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 04m 41s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 12m 03s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 05m 43s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 12m 42s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 10m 33s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 17m 20s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 14m 32s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 18m 18s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 15m 58s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 18m 49s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchGoogle - 2017.02.27 at 08h 16m 32s.xml">
-      <configuration name="BaseSelenium.searchGoogle" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 19m 29s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchRichieBros - 2017.02.25 at 14h 25m 32s.xml">
-      <configuration name="BaseSelenium.searchRichieBros" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 20m 47s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BaseSelenium_searchRichieBros - 2017.02.25 at 14h 29m 16s.xml">
-      <configuration name="BaseSelenium.searchRichieBros" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_searchGoogle - 2017.02.27 at 16h 21m 06s.xml">
+      <configuration name="SeleniumTests.searchGoogle" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="146" y="29" width="1778" height="1026" extended-state="0" />
-    <editor active="false" />
+    <frame x="138" y="19" width="1778" height="1026" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="GfmBrowser" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17993079" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31487888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31487888" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19838524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19838524" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17229337" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -552,7 +573,6 @@
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" x="224" y="129" width="1600" height="826" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32988507" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -747,8 +767,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaseSelenium.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="79" column="44" lean-forward="false" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="44" />
+        <state relative-caret-position="204">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SeleniumTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="28" column="58" lean-forward="true" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -756,12 +786,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="Gfm">
+      <provider editor-type-id="Gfm">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="83" column="414" lean-forward="false" selection-start-line="83" selection-start-column="414" selection-end-line="83" selection-end-column="414" />
           <folding />
         </state>
       </provider>
@@ -823,7 +853,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
