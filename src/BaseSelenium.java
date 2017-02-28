@@ -14,7 +14,7 @@ public class BaseSelenium
 {
     protected static WebDriver chromeDriver = new ChromeDriver();
     protected static String googleURL = "http://www.google.com";
-    protected static long timeout = 10;
+    protected static long timeout = 1;
     protected static String rbURL = "https://www.rbauction.com";
     protected static FluentWait wait = new WebDriverWait(chromeDriver, timeout);
 
@@ -27,7 +27,7 @@ public class BaseSelenium
     @After
     public void cleanUp()
     {
-//        chromeDriver.close();
+        chromeDriver.close();
     }
 
 //Public Functions------------------------------------------------------------------------------------------------------
